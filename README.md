@@ -1,1 +1,3 @@
 # algorithm
+
+## python algorithm basic
