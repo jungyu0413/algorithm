@@ -1,9 +1,9 @@
 import sys
-sys.stdin = open("input.txt", "rt")
+sys.stdin = open("/Users/jungyulee/Desktop/algo/1_04/input.txt", "rt")
 n = int(input())
 a = list(map(int, input().split()))
 min = 2147000000
-ave = round(sum(a)/n)
+ave = round(sum(a)/n) + 0.5
 for idx, x in enumerate(a):
     tmp = abs(x-ave)
     if tmp < min:
