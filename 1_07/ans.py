@@ -13,7 +13,7 @@ for i in range(2, n+1):
 print(cnt)
 
 
-# 나의 답
+# 나의 답 : 이렇게 하면 소수로 나누어지는 경우를 셀수없다.
 '''cnt = 0
 num_cnt = 0
 for i in range(2, n+1):
